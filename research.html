@@ -26,8 +26,9 @@
       </header>
       <div id="site_content">
           <ul class="slideshow">
-              <li class="show"><img width="950" height="350" src="images/nlp1.jpg" alt=" " /></li>
-              <li><img width="950" height="350" src="images/nlp2.jpg" alt=" " /></li>
+              <li class="show"><img width="950" height="350" src="images/nlp2.jpg" alt=" " /></li>
+              <li ><img width="950" height="350" src="images/nlp1.jpg" alt=" " /></li>
+              
           </ul>
           <div id="sidebar_container">
               <div class="sidebar">
@@ -72,5 +73,16 @@
         <p></p>
       </div>
     </div>
+    <!-- javascript at the bottom for fast page loading -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/image_fade.js"></script>
+    <script type="text/javascript">
+    $(function() {
+    $("#lava_menu").lavaLamp({
+    fx: "backout",
+    speed: 900
+    });
+    });
+    </script>
 </body>
 </html>

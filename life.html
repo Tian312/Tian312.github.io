@@ -25,10 +25,9 @@
     </header>
     <div id="site_content">
         <ul class="slideshow">
-            <li><img width="950" height="350" src="images/3.jpg" alt="Commencement 2016, Columbia University. I graduated!" /></li>
-            <li><img width="950" height="350" src="images/1.jpg" alt="Baker Mountain, NY, hiking" /></li>
             <li class="show"><img width="950" height="350" src="images/2.jpg" alt="Cocoa beach, at Florida, traveling with my family" /></li>
-            
+            <li ><img width="950" height="350" src="images/1.jpg" alt="Baker Mountain, NY, hiking" /></li>
+            <li><img width="950" height="350" src="images/3.jpg" alt="Commencement 2016, Columbia University. I graduated!" /></li>
         </ul>
         <div id="sidebar_container">
             <div class="sidebar">
@@ -46,6 +45,16 @@
         
       </div>
     </div>
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+    <!-- javascript at the bottom for fast page loading -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/image_fade.js"></script>
+    <script type="text/javascript">
+        $(function() {
+          $("#lava_menu").lavaLamp({
+                                   fx: "backout",
+                                   speed: 700
+                                   });
+          });
+        </script>
 </body>
 </html>
